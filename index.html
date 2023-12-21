@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="todo">
+            <h2 id="container-heading">To-Do List            <img src="./images/kirbySprite.gif" width="33px" height="33px"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="    Add a task">
+                <button id = "add-button" onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <li onclick="struck(this)"></li>
+                <li onclick="struck(this)"></li>
+                <li onclick="struck(this)"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
